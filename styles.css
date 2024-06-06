@@ -1,25 +1,40 @@
 body{
     background-color: gray;
-    display: flex;
-    justify-content: center;
     margin:0px;
+    padding-left: 400px;
 }
 .post{
     background-color: white;
     width:800px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.post2{
+    background-color: white;
+    width:800px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.post3{
+    background-color: white;
+    width:800px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 #title{
-    text-align: center;
-    margin: 30px;
+    text-align:center;
     box-sizing: content-box;
-    border-bottom:10px gray;
 }
 h2{
-    display:inline-block;
-    margin-top: 30px;
+    display: inline-flex
 }
 #contents1{
-    margin: 30px;
+display:flex;
+justify-content: space-between;
+padding:20px;
 }
 #dachs{
     text-align: center;
